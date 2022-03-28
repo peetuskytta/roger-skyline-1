@@ -8,9 +8,12 @@
 - Debian --> [debian-11.2.0-amd64-netinst.iso](https://www.debian.org/download) (direct download)
 
 #### VM specs:
-- [X] A disk size of 8 GB.
-- [ ] Have at least one 4.2 GB partition.
-- [ ] Have to be up to date as well as the whole packages installed to meet the demands of the project
+- [x] A disk size of 8 GB.
+- [x] Have at least one 4.2 GB partition which I chose *primary* and mounted on `/` and 4.4 GB partition as *logical* mounted on `/home`
+- [x] Have to be up to date as well as the whole packages installed to meet the demands of the project
+```
+apt-get update -y && apt-get upgrade -y
+```
 
 ### V.3 Network and Security Part
 For the network on your VM, here are the steps to achieve:

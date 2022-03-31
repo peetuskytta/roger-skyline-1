@@ -18,6 +18,11 @@
 apt-get update -y && apt-get upgrade -y
 ```
 
+I want to have sudo and vim so I installed them with the command below:
+```
+apt install vim && apt install sudo
+```
+
 ### V.3 Network and Security Part
 For the network on your VM, here are the steps to achieve:
 - [ ] You must create a non-root user to connect to the machine and work.

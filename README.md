@@ -8,9 +8,9 @@
 - Debian --> [debian-11.2.0-amd64-netinst.iso](https://www.debian.org/download) (direct download)
 
 #### VM specs:
-- [x] A disk size of 8 GB.
-- [x] Have at least one 4.2 GB partition which I chose *primary* and mounted on `/` and 4.4 GB partition as *logical* mounted on `/home`
-- [x] Have to be up to date as well as the whole packages installed to meet the demands of the project
+  ✅ A disk size of 8 GB.
+  ✅ Have at least one 4.2 GB partition which I chose *primary* and mounted on `/` and 4.4 GB partition as *logical* mounted on `/home`
+  ✅ Packages up to date and installed to meet the demands of the project. Use the command below:
 ```
 apt-get update -y && apt-get upgrade -y
 ```
